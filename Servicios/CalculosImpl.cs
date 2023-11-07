@@ -13,19 +13,18 @@ namespace Ejercicio5_JCB.Servicios
 
             bool bisiesto = true;
 
-            //Si se divide por 4, pasará mirar si es divisible por 100. Y si no es divisible (100), mirará por 400: 
-            if ((anyo % 4) != 0)
-            {
+            //Si se divide por 4, pasará a mirar si es divisible por 100. Y si es divisible (x100), mirará tambien por 400: 
+            if ((anyo % 4) != 0)            
                 bisiesto = false;
-            }        
+                    
             else if (anyo % 100 == 0) 
             {
-                bisiesto = false;
-            }
-            else if ((anyo % 400) == 0)
-            {
-                bisiesto = true;
-            }
+                if ((anyo % 400) == 0)                
+                    bisiesto = true;
+                
+                else
+                    bisiesto = false;
+            }           
                 return bisiesto;
             }
     }
