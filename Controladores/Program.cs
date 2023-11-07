@@ -24,7 +24,7 @@ namespace Ejercicio5_JCB.Controladores
                 mes = datos.pedirMes();
                 anyo = datos.pedirAnyo();               
 
-                //Varios resultados dentro de un mismo case, ya que varios meses coinciden con el mismo número de días:
+                //Varios resultados dentro de un mismo case, ya que varios meses tiene los mismos días:
                 switch (mes)
                 {
                     case (1 or 3 or 5 or 7 or 8 or 10 or 12):
