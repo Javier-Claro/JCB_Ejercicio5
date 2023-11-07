@@ -27,12 +27,12 @@ namespace Ejercicio5_JCB.Controladores
                 //Varios resultados dentro de un mismo case, ya que varios meses tiene los mismos días:
                 switch (mes)
                 {
-                    case (1 or 3 or 5 or 7 or 8 or 10 or 12):
+                    case 1 or 3 or 5 or 7 or 8 or 10 or 12:
 
                         Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 31");
                         break;
 
-                    case (4 or 6 or 9 or 11):
+                    case 4 or 6 or 9 or 11:
 
                         Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 30");
                         break;
