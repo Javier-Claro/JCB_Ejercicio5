@@ -29,12 +29,12 @@ namespace Ejercicio5_JCB.Controladores
                 {
                     case (1 or 3 or 5 or 7 or 8 or 10 or 12):
 
-                        Console.WriteLine("\n\n\t\t\t\t\t[info] - Dias del mes indicado: 31");
+                        Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 31");
                         break;
 
                     case (4 or 6 or 9 or 11):
 
-                        Console.WriteLine("\n\n\t\t\t\t\t[info] - Dias del mes indicado: 30");
+                        Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 30");
                         break;
 
                     case 2:
@@ -43,11 +43,11 @@ namespace Ejercicio5_JCB.Controladores
 
                         if (bisiesto == true)
                         {
-                            Console.WriteLine("\n\n\t\t\t\t\t[info] - Dias del mes indicado: 29");
+                            Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 29");
                         }
                         else
                         {
-                            Console.WriteLine("\n\n\t\t\t\t\t[info] - Dias del mes indicado: 28");
+                            Console.WriteLine("\n\n\t\t\t\t\t[info] - Días del mes indicado: 28");
                         }
                         break;
                 }
